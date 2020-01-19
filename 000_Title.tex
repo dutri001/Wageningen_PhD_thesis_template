@@ -13,8 +13,10 @@
 \newpage
 \thispagestyle{empty}
 \vspace*{\fill}
-% @{} removes indentation completely from the first tabular column
+% \flushleft removes indentation from tabular
+% @{} removes column spacing in front of the first tabular column
 % p{\textwidth} formats the tabular environment as a paragraph, at the same width as regular text
+\begin{flushleft}
 \begin{tabular}{@{}p{\textwidth}}
     \textbf{Thesis committee}                                                                 \\  
                                                                                               \\  
@@ -38,6 +40,7 @@
     \small{This research was conducted under the auspices of the C.T. de Wit Graduate School
     of Production Ecology \& Resource Conservation (PE$\&$RC)}                                  
 \end{tabular}
+\end{flushleft}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -65,6 +68,7 @@ at 4 p.m. in the Aula.\\
 \newpage
 \thispagestyle{empty}
 \vspace*{\fill}
+\begin{flushleft}
 \begin{tabular}{@{}p{\textwidth}}
     John Doe                                                 \\  
     Title of your thesis                                     \\  
@@ -75,6 +79,7 @@ at 4 p.m. in the Aula.\\
                                                              \\  
     ISBN XXX-YYY                                             \\  
 \end{tabular}
+\end{flushleft}
 %\newpage
 %\thispagestyle{empty}
 %\begin{flushright}
